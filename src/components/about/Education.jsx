@@ -2,35 +2,54 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2013 - 2017",
+    year: "EDUCATION: 2013 - 2017",
     university: "National University of Singapore",
     degree: "Bachelor of Computer Science (BCompSc)",
-    details: "GPA: 3.7/4.0",
+    details: "GPA: 3.8/3.9 ⭐",
   },
   {
-    year: "2018",
+    year: "Sep 2021",
+    university: "IBM Blockchain Foundation for Developer Certificate",
+    degree: "🍸",
+    details: "Coursera",
+  },
+  {
+    year: "May 2020",
+    university: "Full Stack Web and Multiplatform App Development Certificate",
+    degree: "🍸",
+    details: "Coursera",
+  },
+  {
+    year: "Feb 2019",
+    university: "Front End Web Development Certificate",
+    degree: "🍸",
+    details: "Coursera",
+  },
+  {
+    year: "Jul 2018",
+    university: "NodeJS-The Complete Guide",
+    degree: "🍸",
+    details: "Udemy",
+  },
+  {
+    year: "Jan 2018",
     university: "HTML5 Web Developer Camp Certificate",
-    degree: "⸷",
-    details: "",
+    degree: "🍸",
+    details: "Coursera",
   },
   {
-    year: "2019",
-    university: "Front-end Web Development Certificate",
-    degree: "⸷",
-    details: "",
+    year: "May 2017",
+    university: "React-The Complete Guide",
+    degree: "🍸",
+    details: "Udemy",
   },
   {
-    year: "2020",
-    university: "Full-stack Web and Multiplatform App Development Certificate",
-    degree: "⸷",
-    details: "",
+    year: "Mar 2017",
+    university: "Introduction to Programming Using JavaScript",
+    degree: "🍸",
+    details: "Udemy",
   },
-  {
-    year: "2021",
-    university: "IBM Blockchain Foundation for Developer by IBM on Coursera",
-    degree: "⸷",
-    details: "",
-  },
+  
 ];
 
 const Education = () => {
@@ -41,8 +60,8 @@ const Education = () => {
           <div className='icon'>
             <i className='fa fa-briefcase'></i>
           </div>
-          <span className='time open-sans-font text-uppercase'>{val.year}</span>
-          <h5 className='poppins-font text-uppercase'>
+          <span className='time open-sans-font'>{val.year}</span>
+          <h5 className='poppins-font'>
             {val.university}
             <span className='place open-sans-font'>{val.degree}</span>
           </h5>

@@ -4,7 +4,7 @@ const achievementsContent = [
   { title: "8", subTitle1: "years of", subTitle2: "experience" },
   { title: "108", subTitle1: "completed", subTitle2: "projects" },
   { title: "52", subTitle1: "Happy", subTitle2: "customers" },
-  { title: "6", subTitle1: "awards", subTitle2: "won" },
+  { title: "7", subTitle1: "awards", subTitle2: "won" },
 ];
 
 const Achievements = () => {
